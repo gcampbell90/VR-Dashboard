@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using TMPro;
 using System;
+using System.Linq;
 
 public class DataConfigurationPanel : Panel
 {
@@ -68,6 +69,10 @@ public class DataConfigurationPanel : Panel
         xDropdown.AddOptions(columnHeaders);
         yDropdown.AddOptions(columnHeaders);
         zDropdown.AddOptions(columnHeaders);
+
+        yDropdown.value = 1;
+        zDropdown.value = 2;
+
     }
 
     private void OnVisualizeButtonClick()

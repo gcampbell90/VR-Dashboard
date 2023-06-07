@@ -380,7 +380,7 @@ namespace BarGraph.VittorCloud
             StartCoroutine(Graph.AnimateBarsWithAnimTypeTwo(animationSpeed));
 
 
-            transform.parent.transform.localScale = new Vector3(0.042f, 0.042f, 0.042f);
+            transform.parent.transform.localScale = new Vector3(0.065f, 0.065f, 0.065f);
         }
 
         #endregion

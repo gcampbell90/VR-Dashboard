@@ -75,7 +75,7 @@ namespace BarGraph.VittorCloud
         public void SetLabelEnabel()
         {
 
-            Debug.Log("SetBarLabelVisible : " + LabelContainer.transform.localScale.y + " : " + transform.localScale. y, this.gameObject);
+            //Debug.Log("SetBarLabelVisible : " + LabelContainer.transform.localScale.y + " : " + transform.localScale. y, this.gameObject);
             if (transform.localScale.y == 0)
                 LabelContainer.transform.localScale = new Vector3(LabelContainer.transform.localScale.x, originalYscale / (transform.localScale.x ), LabelContainer.transform.localScale.z);
             else

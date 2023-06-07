@@ -72,12 +72,7 @@ public class DatasetSelectionPanel : Panel
             DisplaySuccessMessage();
 
             //// Display CSV headers
-            DisplayCSVHeaders();
-
-            // Proceed to the next panel or perform further actions with the loaded data
-            // For example, you can call a function like ActivateDataConfigurationPanel(csvData) to proceed to the data configuration panel
-            // You would need to implement this function in the appropriate script for the next panel
-            // Example: dashboardManager.ActivateDataConfigurationPanel(csvData);
+            DisplayCSVHeaders();   
         }
     }
 
