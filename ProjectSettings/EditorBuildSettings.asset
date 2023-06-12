@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/VirtualDashboard.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+    path: Assets/Scenes/VirtualDashboard_XR.unity
+    guid: fa39f3f79b3ea0b46a723325d2b8eb06
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0dd885de1f480a74aad9c87d2be8f941,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d4e0d3dc48f08b344a2f552f927d3a76,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0cea01259b256334e912e87750d4db08,
+      type: 2}

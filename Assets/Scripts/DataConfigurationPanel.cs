@@ -33,7 +33,13 @@ public class DataConfigurationPanel : Panel
     public string[] yAxisData;
     public string[] zAxisData;
 
+    public GameObject CurrentGraphObject { get; set; }
 
+    #region Tools Panel
+    [SerializeField] Button addToStoryButton;
+    [SerializeField] Button deleteButton;
+    public System.Action OnAddStoryButtonPress { get; internal set; }
+    #endregion
 
 
     public override void Initialise()
@@ -46,6 +52,8 @@ public class DataConfigurationPanel : Panel
         csvData = datasetSelectionPanel.CsvData;
 
         columnHeaders = datasetSelectionPanel.HeaderData;
+
+        visualizeButton.onClick.RemoveAllListeners();
 
         visualizeButton.onClick.AddListener(OnVisualizeButtonClick);
         SetDropdownData(columnHeaders, csvData);
@@ -84,11 +92,6 @@ public class DataConfigurationPanel : Panel
 
         // Get the visualization title from the input field
         string visualizationTitle = titleInputField.text;
-
-        // Pass the selected axis mappings and title to the visualization component or manager
-        // For example, you can call a function like CreateScatterplot(xAxis, yAxis, zAxis, visualizationTitle) to create the 3D scatterplot
-        // You would need to implement this function in the appropriate script or manager for the visualization
-        // Example: visualizationManager.CreateScatterplot(xAxis, yAxis, zAxis, visualizationTitle);
 
         // Retrieve the column data for the selected headers
         xAxisData = GetColumn(xAxis);
@@ -141,7 +144,35 @@ public class DataConfigurationPanel : Panel
         return new string[0];
     }
 
+    public void SetToolActions(GameObject graph)
+    {
+        CurrentGraphObject = graph;
 
+        addToStoryButton.onClick.AddListener(OnAddStoryButtonClick);
+        deleteButton.onClick.AddListener(OnDeleteButtonClick);
+
+        Debug.Log("Tool Actions Set");
+    }
+
+    private void OnDeleteButtonClick()
+    {
+        addToStoryButton.onClick.RemoveAllListeners();
+        deleteButton.onClick.RemoveAllListeners();
+        Destroy(CurrentGraphObject);
+        Debug.Log("Delete Button Clicked");
+    }
+
+    private void OnAddStoryButtonClick()
+    {
+        //Invoke add to story method in dashboard manager to add graph view to story panel
+        Debug.Log("Add Button Clicked");
+        OnAddStoryButtonPress?.Invoke();
+        //Cleanup
+        Debug.Log("Cleanup creation panel");
+        CurrentGraphObject.SetActive(false);
+        addToStoryButton.onClick.RemoveAllListeners();
+        deleteButton.onClick.RemoveAllListeners();
+    }
 
     private void DisplayUserMessage(string message)
     {

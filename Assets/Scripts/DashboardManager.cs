@@ -6,6 +6,8 @@ public class DashboardManager : MonoBehaviour
     public WelcomePanel welcomePanel;
     public DatasetSelectionPanel datasetSelectionPanel;
     public DataConfigurationPanel dataConfigurationPanel;
+    public DataStoryPanel dataStoryPanel;
+
     public GameObject dataPreviewPanel;
     public Transform visParent;
     public GameObject[] dashboardPanels;
@@ -42,6 +44,14 @@ public class DashboardManager : MonoBehaviour
 
         //step 5 on vis button press, set labels in axis
         dataConfigurationPanel.OnVisualisationButtonPress += ActivateVisualisationPanel;
+
+        //step 6 on data story add button
+        dataConfigurationPanel.OnAddStoryButtonPress += AddToStory;
+    }
+
+    private void AddToStory()
+    {
+        dataStoryPanel.RegisterGraph(dataConfigurationPanel.CurrentGraphObject); 
     }
 
     private void ActivateDatasetSelectionPanel()
@@ -62,6 +72,7 @@ public class DashboardManager : MonoBehaviour
         dataConfigurationPanel.Initialise();
         dashboardPanels[0].SetActive(true);
     }
+
     private void ActivateVisualisationPanel()
     {
         Debug.Log("Activating Data vis panel");
@@ -85,4 +96,7 @@ public class DashboardManager : MonoBehaviour
             item.SetActive(true);
         }
     }
+
+    //Visualisation View Methods - These methods will ensure only view visualisation is viewable.
+
 }

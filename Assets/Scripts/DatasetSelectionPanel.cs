@@ -14,6 +14,7 @@ public class DatasetSelectionPanel : Panel
     public Button browseButton;
     public Button loadCSVButton;
     public Button loadURLButton;
+    public Button loadURL1Button;
     public Button continueButton;
     public TextMeshProUGUI successMessageText;
     public TextMeshProUGUI csvHeadersText;
@@ -21,6 +22,8 @@ public class DatasetSelectionPanel : Panel
 
     private string filePath;
     string url = "https://docs.google.com/spreadsheets/d/1ZkatHtNseT_KkjKfH3o03MgersAtimclTekvSlOpuHQ/export?format=csv";
+
+    string url1 = "https://docs.google.com/spreadsheets/d/12rLVuR6aR9X5l95tNSPrqJIEtgQsHjPbuoHEVcZd_5Y/export?format=csv";
 
     public List<string[]> CsvData { get; set; }
     public List<string> HeaderData { get; set; }
@@ -39,19 +42,26 @@ public class DatasetSelectionPanel : Panel
         browseButton.onClick.AddListener(OnBrowseButtonClick);
         loadCSVButton.onClick.AddListener(OnLoadButtonClick);
         loadURLButton.onClick.AddListener(OnLoadURLButtonClick);
+        loadURL1Button.onClick.AddListener(OnLoadURL1ButtonClick);
         continueButton.onClick.AddListener(delegate { OnContinueButtonPressed?.Invoke(); });
+    }
+
+    private void OnLoadURL1ButtonClick()
+    {
+        InitialiseGoogleSheetFetch(url1);
     }
 
     private void OnLoadURLButtonClick()
     {
-        InitialiseGoogleSheetFetch();
+        InitialiseGoogleSheetFetch(url);
     }
 
     private void OnBrowseButtonClick()
     {
         // Open file dialog to select a CSV file
         string[] fileExtensions = new string[] { "csv" };
-        string browsePath = UnityEditor.EditorUtility.OpenFilePanel("Select CSV file", "", "csv");
+        string browsePath = "paths";
+            //UnityEditor.EditorUtility.OpenFilePanel("Select CSV file", "", "csv");
 
         // Set the selected file path
         if (!string.IsNullOrEmpty(browsePath))
@@ -156,7 +166,7 @@ public class DatasetSelectionPanel : Panel
         continueButton.gameObject.SetActive(true);
     }
 
-    public void InitialiseGoogleSheetFetch()
+    public void InitialiseGoogleSheetFetch(string url)
     {
         DownloadFile(url);
 

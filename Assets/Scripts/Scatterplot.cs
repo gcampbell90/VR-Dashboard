@@ -36,8 +36,9 @@ public class Scatterplot : MonoBehaviour
 
     public void Initialise(Transform parent, DataConfigurationPanel dataconfigPanel)
     {
-        this.transform.SetParent(parent, false);
+        transform.SetParent(parent, false);
         //CreateScatterplot(engagementDates, bands, trusts);
+
         this.dataconfigPanel = dataconfigPanel;
     }
 
@@ -228,6 +229,7 @@ public class Scatterplot : MonoBehaviour
         // Assign a unique color to each data point
         // Add a label or other visual representation to the data point if desired
         // You can attach text objects, sprites, or other game objects to represent additional information
+        dataconfigPanel.SetToolActions(gameObject);
     }
 
     #region Scatterplot functions
