@@ -1,0 +1,3115 @@
+{
+  "nodes": [
+    {
+      "id": "Mexico",
+      "colour": "#0c50fa",
+      "name": "Mexico",
+      "size": "15",
+      "tag": "Country"
+    },
+    {
+      "id": "Peru",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Peru"
+    },
+    {
+      "id": "France",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "France"
+    },
+    {
+      "id": "UK",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "UK"
+    },
+    {
+      "id": "South Africa",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "South Africa"
+    },
+    {
+      "id": "US",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "US"
+    },
+    {
+      "id": "China",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "China"
+    },
+    {
+      "id": "Singapore",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Singapore"
+    },
+    {
+      "id": "Argentina",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Argentina"
+    },
+    {
+      "id": "Uruguay",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Uruguay"
+    },
+    {
+      "id": "Armenia",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Armenia"
+    },
+    {
+      "id": "Bermuda",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Bermuda"
+    },
+    {
+      "id": "Germany",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Germany"
+    },
+    {
+      "id": "Mauritius",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Mauritius"
+    },
+    {
+      "id": "UAE",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "UAE"
+    },
+    {
+      "id": "Vietnam",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Vietnam"
+    },
+    {
+      "id": "Monaco",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Monaco"
+    },
+    {
+      "id": "Australia",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Australia"
+    },
+    {
+      "id": "New Zealand",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "New Zealand"
+    },
+    {
+      "id": "Taiwan",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Taiwan"
+    },
+    {
+      "id": "India",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "India"
+    },
+    {
+      "id": "Philippines",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Philippines"
+    },
+    {
+      "id": "Thailand",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Thailand"
+    },
+    {
+      "id": "Malaysia",
+      "tag": "Country",
+      "size": "15",
+      "colour": "#0c50fa",
+      "name": "Malaysia"
+    },
+    {
+      "id": "Enterprise Resource Planning (ERP)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Enterprise Resource Planning (ERP)"
+    },
+    {
+      "id": "Enterprise Resource Planning (ERP)-Effective",
+      "tag": "Control",
+      "size": "3.392857143",
+      "colour": "#46eb34",
+      "name": "Effective - 38"
+    },
+    {
+      "id": "Enterprise Resource Planning (ERP)-N/A",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 6"
+    },
+    {
+      "id": "Enterprise Resource Planning (ERP)-Not Reported",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Enterprise Resource Planning (ERP)-Other",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Customer Relationship Management (CRM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Customer Relationship Management (CRM)"
+    },
+    {
+      "id": "Customer Relationship Management (CRM)-Effective",
+      "tag": "Control",
+      "size": "1.25",
+      "colour": "#46eb34",
+      "name": "Effective - 14"
+    },
+    {
+      "id": "Customer Relationship Management (CRM)-N/A",
+      "tag": "Control",
+      "size": "2.053571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 23"
+    },
+    {
+      "id": "Customer Relationship Management (CRM)-Not Reported",
+      "tag": "Control",
+      "size": "2.053571429",
+      "colour": "#808080",
+      "name": "Not Reported - 15"
+    },
+    {
+      "id": "Customer Relationship Management (CRM)-Other",
+      "tag": "Control",
+      "size": "1.696428571",
+      "colour": "#ffffff",
+      "name": "Other - 15"
+    },
+    {
+      "id": "Business Intelligence (BI)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Business Intelligence (BI)"
+    },
+    {
+      "id": "Business Intelligence (BI)-Effective",
+      "tag": "Control",
+      "size": "3.482142857",
+      "colour": "#46eb34",
+      "name": "Effective - 39"
+    },
+    {
+      "id": "Business Intelligence (BI)-N/A",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#f00e0e",
+      "name": "N/A - 7"
+    },
+    {
+      "id": "Business Intelligence (BI)-Not Reported",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Business Intelligence (BI)-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Supply Chain Management (SCM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Supply Chain Management (SCM)"
+    },
+    {
+      "id": "Supply Chain Management (SCM)-Effective",
+      "tag": "Control",
+      "size": "3.035714286",
+      "colour": "#46eb34",
+      "name": "Effective - 34"
+    },
+    {
+      "id": "Supply Chain Management (SCM)-N/A",
+      "tag": "Control",
+      "size": "0.178571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 2"
+    },
+    {
+      "id": "Supply Chain Management (SCM)-Not Reported",
+      "tag": "Control",
+      "size": "0.178571429",
+      "colour": "#808080",
+      "name": "Not Reported - 17"
+    },
+    {
+      "id": "Supply Chain Management (SCM)-Other",
+      "tag": "Control",
+      "size": "1.785714286",
+      "colour": "#ffffff",
+      "name": "Other - 17"
+    },
+    {
+      "id": "Human Resource Management (HRM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Human Resource Management (HRM)"
+    },
+    {
+      "id": "Human Resource Management (HRM)-Effective",
+      "tag": "Control",
+      "size": "3.392857143",
+      "colour": "#46eb34",
+      "name": "Effective - 38"
+    },
+    {
+      "id": "Human Resource Management (HRM)-N/A",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#f00e0e",
+      "name": "N/A - 12"
+    },
+    {
+      "id": "Human Resource Management (HRM)-Not Reported",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Human Resource Management (HRM)-Other",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Business Process Management (BPM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Business Process Management (BPM)"
+    },
+    {
+      "id": "Business Process Management (BPM)-Effective",
+      "tag": "Control",
+      "size": "0.178571429",
+      "colour": "#46eb34",
+      "name": "Effective - 2"
+    },
+    {
+      "id": "Business Process Management (BPM)-N/A",
+      "tag": "Control",
+      "size": "2.946428571",
+      "colour": "#f00e0e",
+      "name": "N/A - 33"
+    },
+    {
+      "id": "Business Process Management (BPM)-Not Reported",
+      "tag": "Control",
+      "size": "2.946428571",
+      "colour": "#808080",
+      "name": "Not Reported - 21"
+    },
+    {
+      "id": "Business Process Management (BPM)-Other",
+      "tag": "Control",
+      "size": "1.875",
+      "colour": "#ffffff",
+      "name": "Other - 21"
+    },
+    {
+      "id": "Data Warehousing",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Data Warehousing"
+    },
+    {
+      "id": "Data Warehousing-Effective",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#46eb34",
+      "name": "Effective - 6"
+    },
+    {
+      "id": "Data Warehousing-N/A",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#f00e0e",
+      "name": "N/A - 28"
+    },
+    {
+      "id": "Data Warehousing-Not Reported",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#808080",
+      "name": "Not Reported - 21"
+    },
+    {
+      "id": "Data Warehousing-Other",
+      "tag": "Control",
+      "size": "1.964285714",
+      "colour": "#ffffff",
+      "name": "Other - 21"
+    },
+    {
+      "id": "Project Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Project Management"
+    },
+    {
+      "id": "Project Management-Effective",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#46eb34",
+      "name": "Effective - 6"
+    },
+    {
+      "id": "Project Management-N/A",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#f00e0e",
+      "name": "N/A - 28"
+    },
+    {
+      "id": "Project Management-Not Reported",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#808080",
+      "name": "Not Reported - 21"
+    },
+    {
+      "id": "Project Management-Other",
+      "tag": "Control",
+      "size": "1.964285714",
+      "colour": "#ffffff",
+      "name": "Other - 21"
+    },
+    {
+      "id": "Accounting and Finance",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Accounting and Finance"
+    },
+    {
+      "id": "Accounting and Finance-Effective",
+      "tag": "Control",
+      "size": "2.857142857",
+      "colour": "#46eb34",
+      "name": "Effective - 32"
+    },
+    {
+      "id": "Accounting and Finance-N/A",
+      "tag": "Control",
+      "size": "1.160714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 13"
+    },
+    {
+      "id": "Accounting and Finance-Not Reported",
+      "tag": "Control",
+      "size": "1.160714286",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Accounting and Finance-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Content Management Systems (CMS)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Content Management Systems (CMS)"
+    },
+    {
+      "id": "Content Management Systems (CMS)-Effective",
+      "tag": "Control",
+      "size": "2.857142857",
+      "colour": "#46eb34",
+      "name": "Effective - 32"
+    },
+    {
+      "id": "Content Management Systems (CMS)-N/A",
+      "tag": "Control",
+      "size": "1.160714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 13"
+    },
+    {
+      "id": "Content Management Systems (CMS)-Not Reported",
+      "tag": "Control",
+      "size": "1.160714286",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Content Management Systems (CMS)-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Data Analysis",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Data Analysis"
+    },
+    {
+      "id": "Data Analysis-Effective",
+      "tag": "Control",
+      "size": "3.303571429",
+      "colour": "#46eb34",
+      "name": "Effective - 37"
+    },
+    {
+      "id": "Data Analysis-N/A",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 8"
+    },
+    {
+      "id": "Data Analysis-Not Reported",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Data Analysis-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Collaboration Platforms",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Collaboration Platforms"
+    },
+    {
+      "id": "Collaboration Platforms-Effective",
+      "tag": "Control",
+      "size": "3.482142857",
+      "colour": "#46eb34",
+      "name": "Effective - 39"
+    },
+    {
+      "id": "Collaboration Platforms-N/A",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#f00e0e",
+      "name": "N/A - 10"
+    },
+    {
+      "id": "Collaboration Platforms-Not Reported",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Collaboration Platforms-Other",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Sales Force Automation",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Sales Force Automation"
+    },
+    {
+      "id": "Sales Force Automation-Effective",
+      "tag": "Control",
+      "size": "3.303571429",
+      "colour": "#46eb34",
+      "name": "Effective - 37"
+    },
+    {
+      "id": "Sales Force Automation-N/A",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 9"
+    },
+    {
+      "id": "Sales Force Automation-Not Reported",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Sales Force Automation-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Contract Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Contract Management"
+    },
+    {
+      "id": "Contract Management-Effective",
+      "tag": "Control",
+      "size": "3.482142857",
+      "colour": "#46eb34",
+      "name": "Effective - 39"
+    },
+    {
+      "id": "Contract Management-N/A",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 6"
+    },
+    {
+      "id": "Contract Management-Not Reported",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Contract Management-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Manufacturing and Production",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Manufacturing and Production"
+    },
+    {
+      "id": "Manufacturing and Production-Effective",
+      "tag": "Control",
+      "size": "3.125",
+      "colour": "#46eb34",
+      "name": "Effective - 35"
+    },
+    {
+      "id": "Manufacturing and Production-N/A",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#f00e0e",
+      "name": "N/A - 12"
+    },
+    {
+      "id": "Manufacturing and Production-Not Reported",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Manufacturing and Production-Other",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Document Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Document Management"
+    },
+    {
+      "id": "Document Management-Effective",
+      "tag": "Control",
+      "size": "3.660714286",
+      "colour": "#46eb34",
+      "name": "Effective - 41"
+    },
+    {
+      "id": "Document Management-N/A",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 8"
+    },
+    {
+      "id": "Document Management-Not Reported",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Document Management-Other",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "E-Commerce Platforms",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "E-Commerce Platforms"
+    },
+    {
+      "id": "E-Commerce Platforms-Effective",
+      "tag": "Control",
+      "size": "3.482142857",
+      "colour": "#46eb34",
+      "name": "Effective - 39"
+    },
+    {
+      "id": "E-Commerce Platforms-N/A",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 6"
+    },
+    {
+      "id": "E-Commerce Platforms-Not Reported",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "E-Commerce Platforms-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Data Visualization",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Data Visualization"
+    },
+    {
+      "id": "Data Visualization-Effective",
+      "tag": "Control",
+      "size": "3.660714286",
+      "colour": "#46eb34",
+      "name": "Effective - 41"
+    },
+    {
+      "id": "Data Visualization-N/A",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 8"
+    },
+    {
+      "id": "Data Visualization-Not Reported",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Data Visualization-Other",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Learning Management System (LMS)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Learning Management System (LMS)"
+    },
+    {
+      "id": "Learning Management System (LMS)-Effective",
+      "tag": "Control",
+      "size": "2.321428571",
+      "colour": "#46eb34",
+      "name": "Effective - 26"
+    },
+    {
+      "id": "Learning Management System (LMS)-N/A",
+      "tag": "Control",
+      "size": "2.589285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 29"
+    },
+    {
+      "id": "Learning Management System (LMS)-Not Reported",
+      "tag": "Control",
+      "size": "2.589285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Learning Management System (LMS)-Other",
+      "tag": "Control",
+      "size": "0.089285714",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Business Process Automation",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Business Process Automation"
+    },
+    {
+      "id": "Business Process Automation-Effective",
+      "tag": "Control",
+      "size": "2.142857143",
+      "colour": "#46eb34",
+      "name": "Effective - 24"
+    },
+    {
+      "id": "Business Process Automation-N/A",
+      "tag": "Control",
+      "size": "2.142857143",
+      "colour": "#f00e0e",
+      "name": "N/A - 24"
+    },
+    {
+      "id": "Business Process Automation-Not Reported",
+      "tag": "Control",
+      "size": "2.142857143",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Business Process Automation-Other",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Data Security",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Data Security"
+    },
+    {
+      "id": "Data Security-Effective",
+      "tag": "Control",
+      "size": "3.303571429",
+      "colour": "#46eb34",
+      "name": "Effective - 37"
+    },
+    {
+      "id": "Data Security-N/A",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 8"
+    },
+    {
+      "id": "Data Security-Not Reported",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Data Security-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Customer Service Platform",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Customer Service Platform"
+    },
+    {
+      "id": "Customer Service Platform-Effective",
+      "tag": "Control",
+      "size": "3.482142857",
+      "colour": "#46eb34",
+      "name": "Effective - 39"
+    },
+    {
+      "id": "Customer Service Platform-N/A",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#f00e0e",
+      "name": "N/A - 10"
+    },
+    {
+      "id": "Customer Service Platform-Not Reported",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Customer Service Platform-Other",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Inventory Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Inventory Management"
+    },
+    {
+      "id": "Inventory Management-Effective",
+      "tag": "Control",
+      "size": "3.214285714",
+      "colour": "#46eb34",
+      "name": "Effective - 36"
+    },
+    {
+      "id": "Inventory Management-N/A",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 9"
+    },
+    {
+      "id": "Inventory Management-Not Reported",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Inventory Management-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Fleet Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Fleet Management"
+    },
+    {
+      "id": "Fleet Management-Effective",
+      "tag": "Control",
+      "size": "2.857142857",
+      "colour": "#46eb34",
+      "name": "Effective - 32"
+    },
+    {
+      "id": "Fleet Management-N/A",
+      "tag": "Control",
+      "size": "0.089285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 1"
+    },
+    {
+      "id": "Fleet Management-Not Reported",
+      "tag": "Control",
+      "size": "0.089285714",
+      "colour": "#808080",
+      "name": "Not Reported - 13"
+    },
+    {
+      "id": "Fleet Management-Other",
+      "tag": "Control",
+      "size": "2.053571429",
+      "colour": "#ffffff",
+      "name": "Other - 13"
+    },
+    {
+      "id": "Recruitment and Hiring",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Recruitment and Hiring"
+    },
+    {
+      "id": "Recruitment and Hiring-Effective",
+      "tag": "Control",
+      "size": "2.857142857",
+      "colour": "#46eb34",
+      "name": "Effective - 32"
+    },
+    {
+      "id": "Recruitment and Hiring-N/A",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#f00e0e",
+      "name": "N/A - 7"
+    },
+    {
+      "id": "Recruitment and Hiring-Not Reported",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#808080",
+      "name": "Not Reported - 7"
+    },
+    {
+      "id": "Recruitment and Hiring-Other",
+      "tag": "Control",
+      "size": "1.517857143",
+      "colour": "#ffffff",
+      "name": "Other - 7"
+    },
+    {
+      "id": "Enterprise Mobility Management (EMM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Enterprise Mobility Management (EMM)"
+    },
+    {
+      "id": "Enterprise Mobility Management (EMM)-Effective",
+      "tag": "Control",
+      "size": "2.857142857",
+      "colour": "#46eb34",
+      "name": "Effective - 32"
+    },
+    {
+      "id": "Enterprise Mobility Management (EMM)-N/A",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#f00e0e",
+      "name": "N/A - 7"
+    },
+    {
+      "id": "Enterprise Mobility Management (EMM)-Not Reported",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#808080",
+      "name": "Not Reported - 7"
+    },
+    {
+      "id": "Enterprise Mobility Management (EMM)-Other",
+      "tag": "Control",
+      "size": "1.517857143",
+      "colour": "#ffffff",
+      "name": "Other - 7"
+    },
+    {
+      "id": "Business Process Re-engineering",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Business Process Re-engineering"
+    },
+    {
+      "id": "Business Process Re-engineering-Effective",
+      "tag": "Control",
+      "size": "1.428571429",
+      "colour": "#46eb34",
+      "name": "Effective - 16"
+    },
+    {
+      "id": "Business Process Re-engineering-N/A",
+      "tag": "Control",
+      "size": "2.589285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 29"
+    },
+    {
+      "id": "Business Process Re-engineering-Not Reported",
+      "tag": "Control",
+      "size": "2.589285714",
+      "colour": "#808080",
+      "name": "Not Reported - 11"
+    },
+    {
+      "id": "Business Process Re-engineering-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 11"
+    },
+    {
+      "id": "Automated Invoicing",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Automated Invoicing"
+    },
+    {
+      "id": "Automated Invoicing-Effective",
+      "tag": "Control",
+      "size": "2.857142857",
+      "colour": "#46eb34",
+      "name": "Effective - 32"
+    },
+    {
+      "id": "Automated Invoicing-N/A",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#f00e0e",
+      "name": "N/A - 12"
+    },
+    {
+      "id": "Automated Invoicing-Not Reported",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#808080",
+      "name": "Not Reported - 6"
+    },
+    {
+      "id": "Automated Invoicing-Other",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#ffffff",
+      "name": "Other - 6"
+    },
+    {
+      "id": "Enterprise Application Integration (EAI)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Enterprise Application Integration (EAI)"
+    },
+    {
+      "id": "Enterprise Application Integration (EAI)-Effective",
+      "tag": "Control",
+      "size": "3.125",
+      "colour": "#46eb34",
+      "name": "Effective - 35"
+    },
+    {
+      "id": "Enterprise Application Integration (EAI)-N/A",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#f00e0e",
+      "name": "N/A - 11"
+    },
+    {
+      "id": "Enterprise Application Integration (EAI)-Not Reported",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Enterprise Application Integration (EAI)-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Predictive Analytics",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Predictive Analytics"
+    },
+    {
+      "id": "Predictive Analytics-Effective",
+      "tag": "Control",
+      "size": "3.482142857",
+      "colour": "#46eb34",
+      "name": "Effective - 39"
+    },
+    {
+      "id": "Predictive Analytics-N/A",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 6"
+    },
+    {
+      "id": "Predictive Analytics-Not Reported",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Predictive Analytics-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Travel Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Travel Management"
+    },
+    {
+      "id": "Travel Management-Effective",
+      "tag": "Control",
+      "size": "3.392857143",
+      "colour": "#46eb34",
+      "name": "Effective - 38"
+    },
+    {
+      "id": "Travel Management-N/A",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 6"
+    },
+    {
+      "id": "Travel Management-Not Reported",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Travel Management-Other",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Enterprise Asset Management (EAM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Enterprise Asset Management (EAM)"
+    },
+    {
+      "id": "Enterprise Asset Management (EAM)-Effective",
+      "tag": "Control",
+      "size": "1.607142857",
+      "colour": "#46eb34",
+      "name": "Effective - 18"
+    },
+    {
+      "id": "Enterprise Asset Management (EAM)-N/A",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#f00e0e",
+      "name": "N/A - 28"
+    },
+    {
+      "id": "Enterprise Asset Management (EAM)-Not Reported",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#808080",
+      "name": "Not Reported - 4"
+    },
+    {
+      "id": "Enterprise Asset Management (EAM)-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 4"
+    },
+    {
+      "id": "Workforce Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Workforce Management"
+    },
+    {
+      "id": "Workforce Management-Effective",
+      "tag": "Control",
+      "size": "2.946428571",
+      "colour": "#46eb34",
+      "name": "Effective - 33"
+    },
+    {
+      "id": "Workforce Management-N/A",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#f00e0e",
+      "name": "N/A - 6"
+    },
+    {
+      "id": "Workforce Management-Not Reported",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#808080",
+      "name": "Not Reported - 7"
+    },
+    {
+      "id": "Workforce Management-Other",
+      "tag": "Control",
+      "size": "1.517857143",
+      "colour": "#ffffff",
+      "name": "Other - 7"
+    },
+    {
+      "id": "Workflow Automation",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Workflow Automation"
+    },
+    {
+      "id": "Workflow Automation-Effective",
+      "tag": "Control",
+      "size": "3.214285714",
+      "colour": "#46eb34",
+      "name": "Effective - 36"
+    },
+    {
+      "id": "Workflow Automation-N/A",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#f00e0e",
+      "name": "N/A - 10"
+    },
+    {
+      "id": "Workflow Automation-Not Reported",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Workflow Automation-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Taxation Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Taxation Management"
+    },
+    {
+      "id": "Taxation Management-Effective",
+      "tag": "Control",
+      "size": "3.392857143",
+      "colour": "#46eb34",
+      "name": "Effective - 38"
+    },
+    {
+      "id": "Taxation Management-N/A",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#f00e0e",
+      "name": "N/A - 7"
+    },
+    {
+      "id": "Taxation Management-Not Reported",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Taxation Management-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Risk Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Risk Management"
+    },
+    {
+      "id": "Risk Management-Effective",
+      "tag": "Control",
+      "size": "1.607142857",
+      "colour": "#46eb34",
+      "name": "Effective - 18"
+    },
+    {
+      "id": "Risk Management-N/A",
+      "tag": "Control",
+      "size": "2.678571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 30"
+    },
+    {
+      "id": "Risk Management-Not Reported",
+      "tag": "Control",
+      "size": "2.678571429",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Risk Management-Other",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Quality Management System (QMS)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Quality Management System (QMS)"
+    },
+    {
+      "id": "Quality Management System (QMS)-Effective",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#46eb34",
+      "name": "Effective - 28"
+    },
+    {
+      "id": "Quality Management System (QMS)-N/A",
+      "tag": "Control",
+      "size": "1.607142857",
+      "colour": "#f00e0e",
+      "name": "N/A - 18"
+    },
+    {
+      "id": "Quality Management System (QMS)-Not Reported",
+      "tag": "Control",
+      "size": "1.607142857",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Quality Management System (QMS)-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Business Performance Management (BPM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Business Performance Management (BPM)"
+    },
+    {
+      "id": "Business Performance Management (BPM)-Effective",
+      "tag": "Control",
+      "size": "3.214285714",
+      "colour": "#46eb34",
+      "name": "Effective - 36"
+    },
+    {
+      "id": "Business Performance Management (BPM)-N/A",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#f00e0e",
+      "name": "N/A - 12"
+    },
+    {
+      "id": "Business Performance Management (BPM)-Not Reported",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Business Performance Management (BPM)-Other",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Enterprise Performance Management (EPM)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Enterprise Performance Management (EPM)"
+    },
+    {
+      "id": "Enterprise Performance Management (EPM)-Effective",
+      "tag": "Control",
+      "size": "2.142857143",
+      "colour": "#46eb34",
+      "name": "Effective - 24"
+    },
+    {
+      "id": "Enterprise Performance Management (EPM)-N/A",
+      "tag": "Control",
+      "size": "2.053571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 23"
+    },
+    {
+      "id": "Enterprise Performance Management (EPM)-Not Reported",
+      "tag": "Control",
+      "size": "2.053571429",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Enterprise Performance Management (EPM)-Other",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Talent Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Talent Management"
+    },
+    {
+      "id": "Talent Management-Effective",
+      "tag": "Control",
+      "size": "1.964285714",
+      "colour": "#46eb34",
+      "name": "Effective - 22"
+    },
+    {
+      "id": "Talent Management-N/A",
+      "tag": "Control",
+      "size": "2.232142857",
+      "colour": "#f00e0e",
+      "name": "N/A - 25"
+    },
+    {
+      "id": "Talent Management-Not Reported",
+      "tag": "Control",
+      "size": "2.232142857",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Talent Management-Other",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Contract Accounting",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Contract Accounting"
+    },
+    {
+      "id": "Contract Accounting-Effective",
+      "tag": "Control",
+      "size": "3.214285714",
+      "colour": "#46eb34",
+      "name": "Effective - 36"
+    },
+    {
+      "id": "Contract Accounting-N/A",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 8"
+    },
+    {
+      "id": "Contract Accounting-Not Reported",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Contract Accounting-Other",
+      "tag": "Control",
+      "size": "1.071428571",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Business Process Outsourcing (BPO)",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Business Process Outsourcing (BPO)"
+    },
+    {
+      "id": "Business Process Outsourcing (BPO)-Effective",
+      "tag": "Control",
+      "size": "1.607142857",
+      "colour": "#46eb34",
+      "name": "Effective - 18"
+    },
+    {
+      "id": "Business Process Outsourcing (BPO)-N/A",
+      "tag": "Control",
+      "size": "2.767857143",
+      "colour": "#f00e0e",
+      "name": "N/A - 31"
+    },
+    {
+      "id": "Business Process Outsourcing (BPO)-Not Reported",
+      "tag": "Control",
+      "size": "2.767857143",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Business Process Outsourcing (BPO)-Other",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Performance Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Performance Management"
+    },
+    {
+      "id": "Performance Management-Effective",
+      "tag": "Control",
+      "size": "1.964285714",
+      "colour": "#46eb34",
+      "name": "Effective - 22"
+    },
+    {
+      "id": "Performance Management-N/A",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#f00e0e",
+      "name": "N/A - 28"
+    },
+    {
+      "id": "Performance Management-Not Reported",
+      "tag": "Control",
+      "size": "2.5",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Performance Management-Other",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Utility Billing",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Utility Billing"
+    },
+    {
+      "id": "Utility Billing-Effective",
+      "tag": "Control",
+      "size": "2.232142857",
+      "colour": "#46eb34",
+      "name": "Effective - 25"
+    },
+    {
+      "id": "Utility Billing-N/A",
+      "tag": "Control",
+      "size": "2.232142857",
+      "colour": "#f00e0e",
+      "name": "N/A - 25"
+    },
+    {
+      "id": "Utility Billing-Not Reported",
+      "tag": "Control",
+      "size": "2.232142857",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Utility Billing-Other",
+      "tag": "Control",
+      "size": "0.535714286",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Business Rules Engine",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Business Rules Engine"
+    },
+    {
+      "id": "Business Rules Engine-Effective",
+      "tag": "Control",
+      "size": "3.303571429",
+      "colour": "#46eb34",
+      "name": "Effective - 37"
+    },
+    {
+      "id": "Business Rules Engine-N/A",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 9"
+    },
+    {
+      "id": "Business Rules Engine-Not Reported",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Business Rules Engine-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Data Mining",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Data Mining"
+    },
+    {
+      "id": "Data Mining-Effective",
+      "tag": "Control",
+      "size": "3.303571429",
+      "colour": "#46eb34",
+      "name": "Effective - 37"
+    },
+    {
+      "id": "Data Mining-N/A",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 8"
+    },
+    {
+      "id": "Data Mining-Not Reported",
+      "tag": "Control",
+      "size": "0.714285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Data Mining-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Network Security",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Network Security"
+    },
+    {
+      "id": "Network Security-Effective",
+      "tag": "Control",
+      "size": "3.392857143",
+      "colour": "#46eb34",
+      "name": "Effective - 38"
+    },
+    {
+      "id": "Network Security-N/A",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#f00e0e",
+      "name": "N/A - 7"
+    },
+    {
+      "id": "Network Security-Not Reported",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Network Security-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Process Automation",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Process Automation"
+    },
+    {
+      "id": "Process Automation-Effective",
+      "tag": "Control",
+      "size": "3.392857143",
+      "colour": "#46eb34",
+      "name": "Effective - 38"
+    },
+    {
+      "id": "Process Automation-N/A",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#f00e0e",
+      "name": "N/A - 7"
+    },
+    {
+      "id": "Process Automation-Not Reported",
+      "tag": "Control",
+      "size": "0.625",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Process Automation-Other",
+      "tag": "Control",
+      "size": "0.982142857",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Email Marketing",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Email Marketing"
+    },
+    {
+      "id": "Email Marketing-Effective",
+      "tag": "Control",
+      "size": "3.392857143",
+      "colour": "#46eb34",
+      "name": "Effective - 38"
+    },
+    {
+      "id": "Email Marketing-N/A",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 9"
+    },
+    {
+      "id": "Email Marketing-Not Reported",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Email Marketing-Other",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Knowledge Management",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Knowledge Management"
+    },
+    {
+      "id": "Knowledge Management-Effective",
+      "tag": "Control",
+      "size": "3.035714286",
+      "colour": "#46eb34",
+      "name": "Effective - 34"
+    },
+    {
+      "id": "Knowledge Management-N/A",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#f00e0e",
+      "name": "N/A - 9"
+    },
+    {
+      "id": "Knowledge Management-Not Reported",
+      "tag": "Control",
+      "size": "0.803571429",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Knowledge Management-Other",
+      "tag": "Control",
+      "size": "1.160714286",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    },
+    {
+      "id": "Customer Support",
+      "tag": "Application",
+      "size": "10",
+      "colour": "#ffc800",
+      "name": "Customer Support"
+    },
+    {
+      "id": "Customer Support-Effective",
+      "tag": "Control",
+      "size": "2.767857143",
+      "colour": "#46eb34",
+      "name": "Effective - 31"
+    },
+    {
+      "id": "Customer Support-N/A",
+      "tag": "Control",
+      "size": "1.339285714",
+      "colour": "#f00e0e",
+      "name": "N/A - 15"
+    },
+    {
+      "id": "Customer Support-Not Reported",
+      "tag": "Control",
+      "size": "1.339285714",
+      "colour": "#808080",
+      "name": "Not Reported - 0"
+    },
+    {
+      "id": "Customer Support-Other",
+      "tag": "Control",
+      "size": "0.892857143",
+      "colour": "#ffffff",
+      "name": "Other - 0"
+    }
+  ],
+  "links": [
+    {
+      "source": "Mexico",
+      "target": "Enterprise Resource Planning (ERP)"
+    },
+    {
+      "source": "Mexico",
+      "target": "Inventory Management"
+    },
+    {
+      "source": "Mexico",
+      "target": "Workforce Management"
+    },
+    {
+      "source": "Peru",
+      "target": "Customer Relationship Management (CRM)"
+    },
+    {
+      "source": "Peru",
+      "target": "Data Analysis"
+    },
+    {
+      "source": "Peru",
+      "target": "Sales Force Automation"
+    },
+    {
+      "source": "Peru",
+      "target": "Contract Management"
+    },
+    {
+      "source": "Peru",
+      "target": "Manufacturing and Production"
+    },
+    {
+      "source": "Peru",
+      "target": "Document Management"
+    },
+    {
+      "source": "Peru",
+      "target": "E-Commerce Platforms"
+    },
+    {
+      "source": "Peru",
+      "target": "Business Process Automation"
+    },
+    {
+      "source": "Peru",
+      "target": "Data Security"
+    },
+    {
+      "source": "Peru",
+      "target": "Fleet Management"
+    },
+    {
+      "source": "Peru",
+      "target": "Automated Invoicing"
+    },
+    {
+      "source": "Peru",
+      "target": "Enterprise Application Integration (EAI)"
+    },
+    {
+      "source": "Peru",
+      "target": "Predictive Analytics"
+    },
+    {
+      "source": "Peru",
+      "target": "Travel Management"
+    },
+    {
+      "source": "Peru",
+      "target": "Workforce Management"
+    },
+    {
+      "source": "Peru",
+      "target": "Performance Management"
+    },
+    {
+      "source": "Peru",
+      "target": "Business Rules Engine"
+    },
+    {
+      "source": "Peru",
+      "target": "Network Security"
+    },
+    {
+      "source": "France",
+      "target": "Business Intelligence (BI)"
+    },
+    {
+      "source": "France",
+      "target": "Human Resource Management (HRM)"
+    },
+    {
+      "source": "France",
+      "target": "Document Management"
+    },
+    {
+      "source": "France",
+      "target": "Taxation Management"
+    },
+    {
+      "source": "France",
+      "target": "Risk Management"
+    },
+    {
+      "source": "France",
+      "target": "Business Performance Management (BPM)"
+    },
+    {
+      "source": "France",
+      "target": "Network Security"
+    },
+    {
+      "source": "France",
+      "target": "Process Automation"
+    },
+    {
+      "source": "France",
+      "target": "Email Marketing"
+    },
+    {
+      "source": "France",
+      "target": "Knowledge Management"
+    },
+    {
+      "source": "UK",
+      "target": "Supply Chain Management (SCM)"
+    },
+    {
+      "source": "UK",
+      "target": "Human Resource Management (HRM)"
+    },
+    {
+      "source": "UK",
+      "target": "Accounting and Finance"
+    },
+    {
+      "source": "UK",
+      "target": "Document Management"
+    },
+    {
+      "source": "UK",
+      "target": "Workflow Automation"
+    },
+    {
+      "source": "UK",
+      "target": "Taxation Management"
+    },
+    {
+      "source": "UK",
+      "target": "Risk Management"
+    },
+    {
+      "source": "UK",
+      "target": "Quality Management System (QMS)"
+    },
+    {
+      "source": "UK",
+      "target": "Enterprise Performance Management (EPM)"
+    },
+    {
+      "source": "UK",
+      "target": "Talent Management"
+    },
+    {
+      "source": "UK",
+      "target": "Business Process Outsourcing (BPO)"
+    },
+    {
+      "source": "UK",
+      "target": "Utility Billing"
+    },
+    {
+      "source": "UK",
+      "target": "Business Rules Engine"
+    },
+    {
+      "source": "UK",
+      "target": "Network Security"
+    },
+    {
+      "source": "UK",
+      "target": "Email Marketing"
+    },
+    {
+      "source": "South Africa",
+      "target": "Business Process Management (BPM)"
+    },
+    {
+      "source": "South Africa",
+      "target": "Data Warehousing"
+    },
+    {
+      "source": "South Africa",
+      "target": "Project Management"
+    },
+    {
+      "source": "US",
+      "target": "Content Management Systems (CMS)"
+    },
+    {
+      "source": "US",
+      "target": "Collaboration Platforms"
+    },
+    {
+      "source": "US",
+      "target": "Document Management"
+    },
+    {
+      "source": "US",
+      "target": "Contract Accounting"
+    },
+    {
+      "source": "US",
+      "target": "Customer Support"
+    },
+    {
+      "source": "China",
+      "target": "Document Management"
+    },
+    {
+      "source": "China",
+      "target": "Data Visualization"
+    },
+    {
+      "source": "China",
+      "target": "Travel Management"
+    },
+    {
+      "source": "China",
+      "target": "Enterprise Asset Management (EAM)"
+    },
+    {
+      "source": "China",
+      "target": "Business Rules Engine"
+    },
+    {
+      "source": "China",
+      "target": "Data Mining"
+    },
+    {
+      "source": "Singapore",
+      "target": "Document Management"
+    },
+    {
+      "source": "Singapore",
+      "target": "Quality Management System (QMS)"
+    },
+    {
+      "source": "Singapore",
+      "target": "Network Security"
+    },
+    {
+      "source": "Argentina",
+      "target": "Learning Management System (LMS)"
+    },
+    {
+      "source": "Argentina",
+      "target": "Inventory Management"
+    },
+    {
+      "source": "Uruguay",
+      "target": "Customer Service Platform"
+    },
+    {
+      "source": "Armenia",
+      "target": "Inventory Management"
+    },
+    {
+      "source": "Bermuda",
+      "target": "Inventory Management"
+    },
+    {
+      "source": "Germany",
+      "target": "Inventory Management"
+    },
+    {
+      "source": "Germany",
+      "target": "Business Process Re-engineering"
+    },
+    {
+      "source": "Mauritius",
+      "target": "Inventory Management"
+    },
+    {
+      "source": "UAE",
+      "target": "Inventory Management"
+    },
+    {
+      "source": "Vietnam",
+      "target": "Recruitment and Hiring"
+    },
+    {
+      "source": "Vietnam",
+      "target": "Enterprise Mobility Management (EMM)"
+    },
+    {
+      "source": "Vietnam",
+      "target": "Data Mining"
+    },
+    {
+      "source": "Monaco",
+      "target": "Workflow Automation"
+    },
+    {
+      "source": "Australia",
+      "target": "Taxation Management"
+    },
+    {
+      "source": "New Zealand",
+      "target": "Taxation Management"
+    },
+    {
+      "source": "New Zealand",
+      "target": "Data Mining"
+    },
+    {
+      "source": "Taiwan",
+      "target": "Taxation Management"
+    },
+    {
+      "source": "Taiwan",
+      "target": "Data Mining"
+    },
+    {
+      "source": "India",
+      "target": "Data Mining"
+    },
+    {
+      "source": "Philippines",
+      "target": "Data Mining"
+    },
+    {
+      "source": "Thailand",
+      "target": "Data Mining"
+    },
+    {
+      "source": "Malaysia",
+      "target": "Network Security"
+    },
+    {
+      "source": "Enterprise Resource Planning (ERP)",
+      "target": "Enterprise Resource Planning (ERP)-Effective"
+    },
+    {
+      "source": "Enterprise Resource Planning (ERP)",
+      "target": "Enterprise Resource Planning (ERP)-N/A"
+    },
+    {
+      "source": "Enterprise Resource Planning (ERP)",
+      "target": "Enterprise Resource Planning (ERP)-Not Reported"
+    },
+    {
+      "source": "Enterprise Resource Planning (ERP)",
+      "target": "Enterprise Resource Planning (ERP)-Other"
+    },
+    {
+      "source": "Customer Relationship Management (CRM)",
+      "target": "Customer Relationship Management (CRM)-Effective"
+    },
+    {
+      "source": "Customer Relationship Management (CRM)",
+      "target": "Customer Relationship Management (CRM)-N/A"
+    },
+    {
+      "source": "Customer Relationship Management (CRM)",
+      "target": "Customer Relationship Management (CRM)-Not Reported"
+    },
+    {
+      "source": "Customer Relationship Management (CRM)",
+      "target": "Customer Relationship Management (CRM)-Other"
+    },
+    {
+      "source": "Business Intelligence (BI)",
+      "target": "Business Intelligence (BI)-Effective"
+    },
+    {
+      "source": "Business Intelligence (BI)",
+      "target": "Business Intelligence (BI)-N/A"
+    },
+    {
+      "source": "Business Intelligence (BI)",
+      "target": "Business Intelligence (BI)-Not Reported"
+    },
+    {
+      "source": "Business Intelligence (BI)",
+      "target": "Business Intelligence (BI)-Other"
+    },
+    {
+      "source": "Supply Chain Management (SCM)",
+      "target": "Supply Chain Management (SCM)-Effective"
+    },
+    {
+      "source": "Supply Chain Management (SCM)",
+      "target": "Supply Chain Management (SCM)-N/A"
+    },
+    {
+      "source": "Supply Chain Management (SCM)",
+      "target": "Supply Chain Management (SCM)-Not Reported"
+    },
+    {
+      "source": "Supply Chain Management (SCM)",
+      "target": "Supply Chain Management (SCM)-Other"
+    },
+    {
+      "source": "Human Resource Management (HRM)",
+      "target": "Human Resource Management (HRM)-Effective"
+    },
+    {
+      "source": "Human Resource Management (HRM)",
+      "target": "Human Resource Management (HRM)-N/A"
+    },
+    {
+      "source": "Human Resource Management (HRM)",
+      "target": "Human Resource Management (HRM)-Not Reported"
+    },
+    {
+      "source": "Human Resource Management (HRM)",
+      "target": "Human Resource Management (HRM)-Other"
+    },
+    {
+      "source": "Business Process Management (BPM)",
+      "target": "Business Process Management (BPM)-Effective"
+    },
+    {
+      "source": "Business Process Management (BPM)",
+      "target": "Business Process Management (BPM)-N/A"
+    },
+    {
+      "source": "Business Process Management (BPM)",
+      "target": "Business Process Management (BPM)-Not Reported"
+    },
+    {
+      "source": "Business Process Management (BPM)",
+      "target": "Business Process Management (BPM)-Other"
+    },
+    {
+      "source": "Data Warehousing",
+      "target": "Data Warehousing-Effective"
+    },
+    {
+      "source": "Data Warehousing",
+      "target": "Data Warehousing-N/A"
+    },
+    {
+      "source": "Data Warehousing",
+      "target": "Data Warehousing-Not Reported"
+    },
+    {
+      "source": "Data Warehousing",
+      "target": "Data Warehousing-Other"
+    },
+    {
+      "source": "Project Management",
+      "target": "Project Management-Effective"
+    },
+    {
+      "source": "Project Management",
+      "target": "Project Management-N/A"
+    },
+    {
+      "source": "Project Management",
+      "target": "Project Management-Not Reported"
+    },
+    {
+      "source": "Project Management",
+      "target": "Project Management-Other"
+    },
+    {
+      "source": "Accounting and Finance",
+      "target": "Accounting and Finance-Effective"
+    },
+    {
+      "source": "Accounting and Finance",
+      "target": "Accounting and Finance-N/A"
+    },
+    {
+      "source": "Accounting and Finance",
+      "target": "Accounting and Finance-Not Reported"
+    },
+    {
+      "source": "Accounting and Finance",
+      "target": "Accounting and Finance-Other"
+    },
+    {
+      "source": "Content Management Systems (CMS)",
+      "target": "Content Management Systems (CMS)-Effective"
+    },
+    {
+      "source": "Content Management Systems (CMS)",
+      "target": "Content Management Systems (CMS)-N/A"
+    },
+    {
+      "source": "Content Management Systems (CMS)",
+      "target": "Content Management Systems (CMS)-Not Reported"
+    },
+    {
+      "source": "Content Management Systems (CMS)",
+      "target": "Content Management Systems (CMS)-Other"
+    },
+    {
+      "source": "Data Analysis",
+      "target": "Data Analysis-Effective"
+    },
+    {
+      "source": "Data Analysis",
+      "target": "Data Analysis-N/A"
+    },
+    {
+      "source": "Data Analysis",
+      "target": "Data Analysis-Not Reported"
+    },
+    {
+      "source": "Data Analysis",
+      "target": "Data Analysis-Other"
+    },
+    {
+      "source": "Collaboration Platforms",
+      "target": "Collaboration Platforms-Effective"
+    },
+    {
+      "source": "Collaboration Platforms",
+      "target": "Collaboration Platforms-N/A"
+    },
+    {
+      "source": "Collaboration Platforms",
+      "target": "Collaboration Platforms-Not Reported"
+    },
+    {
+      "source": "Collaboration Platforms",
+      "target": "Collaboration Platforms-Other"
+    },
+    {
+      "source": "Sales Force Automation",
+      "target": "Sales Force Automation-Effective"
+    },
+    {
+      "source": "Sales Force Automation",
+      "target": "Sales Force Automation-N/A"
+    },
+    {
+      "source": "Sales Force Automation",
+      "target": "Sales Force Automation-Not Reported"
+    },
+    {
+      "source": "Sales Force Automation",
+      "target": "Sales Force Automation-Other"
+    },
+    {
+      "source": "Contract Management",
+      "target": "Contract Management-Effective"
+    },
+    {
+      "source": "Contract Management",
+      "target": "Contract Management-N/A"
+    },
+    {
+      "source": "Contract Management",
+      "target": "Contract Management-Not Reported"
+    },
+    {
+      "source": "Contract Management",
+      "target": "Contract Management-Other"
+    },
+    {
+      "source": "Manufacturing and Production",
+      "target": "Manufacturing and Production-Effective"
+    },
+    {
+      "source": "Manufacturing and Production",
+      "target": "Manufacturing and Production-N/A"
+    },
+    {
+      "source": "Manufacturing and Production",
+      "target": "Manufacturing and Production-Not Reported"
+    },
+    {
+      "source": "Manufacturing and Production",
+      "target": "Manufacturing and Production-Other"
+    },
+    {
+      "source": "Document Management",
+      "target": "Document Management-Effective"
+    },
+    {
+      "source": "Document Management",
+      "target": "Document Management-N/A"
+    },
+    {
+      "source": "Document Management",
+      "target": "Document Management-Not Reported"
+    },
+    {
+      "source": "Document Management",
+      "target": "Document Management-Other"
+    },
+    {
+      "source": "E-Commerce Platforms",
+      "target": "E-Commerce Platforms-Effective"
+    },
+    {
+      "source": "E-Commerce Platforms",
+      "target": "E-Commerce Platforms-N/A"
+    },
+    {
+      "source": "E-Commerce Platforms",
+      "target": "E-Commerce Platforms-Not Reported"
+    },
+    {
+      "source": "E-Commerce Platforms",
+      "target": "E-Commerce Platforms-Other"
+    },
+    {
+      "source": "Data Visualization",
+      "target": "Data Visualization-Effective"
+    },
+    {
+      "source": "Data Visualization",
+      "target": "Data Visualization-N/A"
+    },
+    {
+      "source": "Data Visualization",
+      "target": "Data Visualization-Not Reported"
+    },
+    {
+      "source": "Data Visualization",
+      "target": "Data Visualization-Other"
+    },
+    {
+      "source": "Learning Management System (LMS)",
+      "target": "Learning Management System (LMS)-Effective"
+    },
+    {
+      "source": "Learning Management System (LMS)",
+      "target": "Learning Management System (LMS)-N/A"
+    },
+    {
+      "source": "Learning Management System (LMS)",
+      "target": "Learning Management System (LMS)-Not Reported"
+    },
+    {
+      "source": "Learning Management System (LMS)",
+      "target": "Learning Management System (LMS)-Other"
+    },
+    {
+      "source": "Business Process Automation",
+      "target": "Business Process Automation-Effective"
+    },
+    {
+      "source": "Business Process Automation",
+      "target": "Business Process Automation-N/A"
+    },
+    {
+      "source": "Business Process Automation",
+      "target": "Business Process Automation-Not Reported"
+    },
+    {
+      "source": "Business Process Automation",
+      "target": "Business Process Automation-Other"
+    },
+    {
+      "source": "Data Security",
+      "target": "Data Security-Effective"
+    },
+    {
+      "source": "Data Security",
+      "target": "Data Security-N/A"
+    },
+    {
+      "source": "Data Security",
+      "target": "Data Security-Not Reported"
+    },
+    {
+      "source": "Data Security",
+      "target": "Data Security-Other"
+    },
+    {
+      "source": "Customer Service Platform",
+      "target": "Customer Service Platform-Effective"
+    },
+    {
+      "source": "Customer Service Platform",
+      "target": "Customer Service Platform-N/A"
+    },
+    {
+      "source": "Customer Service Platform",
+      "target": "Customer Service Platform-Not Reported"
+    },
+    {
+      "source": "Customer Service Platform",
+      "target": "Customer Service Platform-Other"
+    },
+    {
+      "source": "Inventory Management",
+      "target": "Inventory Management-Effective"
+    },
+    {
+      "source": "Inventory Management",
+      "target": "Inventory Management-N/A"
+    },
+    {
+      "source": "Inventory Management",
+      "target": "Inventory Management-Not Reported"
+    },
+    {
+      "source": "Inventory Management",
+      "target": "Inventory Management-Other"
+    },
+    {
+      "source": "Fleet Management",
+      "target": "Fleet Management-Effective"
+    },
+    {
+      "source": "Fleet Management",
+      "target": "Fleet Management-N/A"
+    },
+    {
+      "source": "Fleet Management",
+      "target": "Fleet Management-Not Reported"
+    },
+    {
+      "source": "Fleet Management",
+      "target": "Fleet Management-Other"
+    },
+    {
+      "source": "Recruitment and Hiring",
+      "target": "Recruitment and Hiring-Effective"
+    },
+    {
+      "source": "Recruitment and Hiring",
+      "target": "Recruitment and Hiring-N/A"
+    },
+    {
+      "source": "Recruitment and Hiring",
+      "target": "Recruitment and Hiring-Not Reported"
+    },
+    {
+      "source": "Recruitment and Hiring",
+      "target": "Recruitment and Hiring-Other"
+    },
+    {
+      "source": "Enterprise Mobility Management (EMM)",
+      "target": "Enterprise Mobility Management (EMM)-Effective"
+    },
+    {
+      "source": "Enterprise Mobility Management (EMM)",
+      "target": "Enterprise Mobility Management (EMM)-N/A"
+    },
+    {
+      "source": "Enterprise Mobility Management (EMM)",
+      "target": "Enterprise Mobility Management (EMM)-Not Reported"
+    },
+    {
+      "source": "Enterprise Mobility Management (EMM)",
+      "target": "Enterprise Mobility Management (EMM)-Other"
+    },
+    {
+      "source": "Business Process Re-engineering",
+      "target": "Business Process Re-engineering-Effective"
+    },
+    {
+      "source": "Business Process Re-engineering",
+      "target": "Business Process Re-engineering-N/A"
+    },
+    {
+      "source": "Business Process Re-engineering",
+      "target": "Business Process Re-engineering-Not Reported"
+    },
+    {
+      "source": "Business Process Re-engineering",
+      "target": "Business Process Re-engineering-Other"
+    },
+    {
+      "source": "Automated Invoicing",
+      "target": "Automated Invoicing-Effective"
+    },
+    {
+      "source": "Automated Invoicing",
+      "target": "Automated Invoicing-N/A"
+    },
+    {
+      "source": "Automated Invoicing",
+      "target": "Automated Invoicing-Not Reported"
+    },
+    {
+      "source": "Automated Invoicing",
+      "target": "Automated Invoicing-Other"
+    },
+    {
+      "source": "Enterprise Application Integration (EAI)",
+      "target": "Enterprise Application Integration (EAI)-Effective"
+    },
+    {
+      "source": "Enterprise Application Integration (EAI)",
+      "target": "Enterprise Application Integration (EAI)-N/A"
+    },
+    {
+      "source": "Enterprise Application Integration (EAI)",
+      "target": "Enterprise Application Integration (EAI)-Not Reported"
+    },
+    {
+      "source": "Enterprise Application Integration (EAI)",
+      "target": "Enterprise Application Integration (EAI)-Other"
+    },
+    {
+      "source": "Predictive Analytics",
+      "target": "Predictive Analytics-Effective"
+    },
+    {
+      "source": "Predictive Analytics",
+      "target": "Predictive Analytics-N/A"
+    },
+    {
+      "source": "Predictive Analytics",
+      "target": "Predictive Analytics-Not Reported"
+    },
+    {
+      "source": "Predictive Analytics",
+      "target": "Predictive Analytics-Other"
+    },
+    {
+      "source": "Travel Management",
+      "target": "Travel Management-Effective"
+    },
+    {
+      "source": "Travel Management",
+      "target": "Travel Management-N/A"
+    },
+    {
+      "source": "Travel Management",
+      "target": "Travel Management-Not Reported"
+    },
+    {
+      "source": "Travel Management",
+      "target": "Travel Management-Other"
+    },
+    {
+      "source": "Enterprise Asset Management (EAM)",
+      "target": "Enterprise Asset Management (EAM)-Effective"
+    },
+    {
+      "source": "Enterprise Asset Management (EAM)",
+      "target": "Enterprise Asset Management (EAM)-N/A"
+    },
+    {
+      "source": "Enterprise Asset Management (EAM)",
+      "target": "Enterprise Asset Management (EAM)-Not Reported"
+    },
+    {
+      "source": "Enterprise Asset Management (EAM)",
+      "target": "Enterprise Asset Management (EAM)-Other"
+    },
+    {
+      "source": "Workforce Management",
+      "target": "Workforce Management-Effective"
+    },
+    {
+      "source": "Workforce Management",
+      "target": "Workforce Management-N/A"
+    },
+    {
+      "source": "Workforce Management",
+      "target": "Workforce Management-Not Reported"
+    },
+    {
+      "source": "Workforce Management",
+      "target": "Workforce Management-Other"
+    },
+    {
+      "source": "Workflow Automation",
+      "target": "Workflow Automation-Effective"
+    },
+    {
+      "source": "Workflow Automation",
+      "target": "Workflow Automation-N/A"
+    },
+    {
+      "source": "Workflow Automation",
+      "target": "Workflow Automation-Not Reported"
+    },
+    {
+      "source": "Workflow Automation",
+      "target": "Workflow Automation-Other"
+    },
+    {
+      "source": "Taxation Management",
+      "target": "Taxation Management-Effective"
+    },
+    {
+      "source": "Taxation Management",
+      "target": "Taxation Management-N/A"
+    },
+    {
+      "source": "Taxation Management",
+      "target": "Taxation Management-Not Reported"
+    },
+    {
+      "source": "Taxation Management",
+      "target": "Taxation Management-Other"
+    },
+    {
+      "source": "Risk Management",
+      "target": "Risk Management-Effective"
+    },
+    {
+      "source": "Risk Management",
+      "target": "Risk Management-N/A"
+    },
+    {
+      "source": "Risk Management",
+      "target": "Risk Management-Not Reported"
+    },
+    {
+      "source": "Risk Management",
+      "target": "Risk Management-Other"
+    },
+    {
+      "source": "Quality Management System (QMS)",
+      "target": "Quality Management System (QMS)-Effective"
+    },
+    {
+      "source": "Quality Management System (QMS)",
+      "target": "Quality Management System (QMS)-N/A"
+    },
+    {
+      "source": "Quality Management System (QMS)",
+      "target": "Quality Management System (QMS)-Not Reported"
+    },
+    {
+      "source": "Quality Management System (QMS)",
+      "target": "Quality Management System (QMS)-Other"
+    },
+    {
+      "source": "Business Performance Management (BPM)",
+      "target": "Business Performance Management (BPM)-Effective"
+    },
+    {
+      "source": "Business Performance Management (BPM)",
+      "target": "Business Performance Management (BPM)-N/A"
+    },
+    {
+      "source": "Business Performance Management (BPM)",
+      "target": "Business Performance Management (BPM)-Not Reported"
+    },
+    {
+      "source": "Business Performance Management (BPM)",
+      "target": "Business Performance Management (BPM)-Other"
+    },
+    {
+      "source": "Enterprise Performance Management (EPM)",
+      "target": "Enterprise Performance Management (EPM)-Effective"
+    },
+    {
+      "source": "Enterprise Performance Management (EPM)",
+      "target": "Enterprise Performance Management (EPM)-N/A"
+    },
+    {
+      "source": "Enterprise Performance Management (EPM)",
+      "target": "Enterprise Performance Management (EPM)-Not Reported"
+    },
+    {
+      "source": "Enterprise Performance Management (EPM)",
+      "target": "Enterprise Performance Management (EPM)-Other"
+    },
+    {
+      "source": "Talent Management",
+      "target": "Talent Management-Effective"
+    },
+    {
+      "source": "Talent Management",
+      "target": "Talent Management-N/A"
+    },
+    {
+      "source": "Talent Management",
+      "target": "Talent Management-Not Reported"
+    },
+    {
+      "source": "Talent Management",
+      "target": "Talent Management-Other"
+    },
+    {
+      "source": "Contract Accounting",
+      "target": "Contract Accounting-Effective"
+    },
+    {
+      "source": "Contract Accounting",
+      "target": "Contract Accounting-N/A"
+    },
+    {
+      "source": "Contract Accounting",
+      "target": "Contract Accounting-Not Reported"
+    },
+    {
+      "source": "Contract Accounting",
+      "target": "Contract Accounting-Other"
+    },
+    {
+      "source": "Business Process Outsourcing (BPO)",
+      "target": "Business Process Outsourcing (BPO)-Effective"
+    },
+    {
+      "source": "Business Process Outsourcing (BPO)",
+      "target": "Business Process Outsourcing (BPO)-N/A"
+    },
+    {
+      "source": "Business Process Outsourcing (BPO)",
+      "target": "Business Process Outsourcing (BPO)-Not Reported"
+    },
+    {
+      "source": "Business Process Outsourcing (BPO)",
+      "target": "Business Process Outsourcing (BPO)-Other"
+    },
+    {
+      "source": "Performance Management",
+      "target": "Performance Management-Effective"
+    },
+    {
+      "source": "Performance Management",
+      "target": "Performance Management-N/A"
+    },
+    {
+      "source": "Performance Management",
+      "target": "Performance Management-Not Reported"
+    },
+    {
+      "source": "Performance Management",
+      "target": "Performance Management-Other"
+    },
+    {
+      "source": "Utility Billing",
+      "target": "Utility Billing-Effective"
+    },
+    {
+      "source": "Utility Billing",
+      "target": "Utility Billing-N/A"
+    },
+    {
+      "source": "Utility Billing",
+      "target": "Utility Billing-Not Reported"
+    },
+    {
+      "source": "Utility Billing",
+      "target": "Utility Billing-Other"
+    },
+    {
+      "source": "Business Rules Engine",
+      "target": "Business Rules Engine-Effective"
+    },
+    {
+      "source": "Business Rules Engine",
+      "target": "Business Rules Engine-N/A"
+    },
+    {
+      "source": "Business Rules Engine",
+      "target": "Business Rules Engine-Not Reported"
+    },
+    {
+      "source": "Business Rules Engine",
+      "target": "Business Rules Engine-Other"
+    },
+    {
+      "source": "Data Mining",
+      "target": "Data Mining-Effective"
+    },
+    {
+      "source": "Data Mining",
+      "target": "Data Mining-N/A"
+    },
+    {
+      "source": "Data Mining",
+      "target": "Data Mining-Not Reported"
+    },
+    {
+      "source": "Data Mining",
+      "target": "Data Mining-Other"
+    },
+    {
+      "source": "Network Security",
+      "target": "Network Security-Effective"
+    },
+    {
+      "source": "Network Security",
+      "target": "Network Security-N/A"
+    },
+    {
+      "source": "Network Security",
+      "target": "Network Security-Not Reported"
+    },
+    {
+      "source": "Network Security",
+      "target": "Network Security-Other"
+    },
+    {
+      "source": "Process Automation",
+      "target": "Process Automation-Effective"
+    },
+    {
+      "source": "Process Automation",
+      "target": "Process Automation-N/A"
+    },
+    {
+      "source": "Process Automation",
+      "target": "Process Automation-Not Reported"
+    },
+    {
+      "source": "Process Automation",
+      "target": "Process Automation-Other"
+    },
+    {
+      "source": "Email Marketing",
+      "target": "Email Marketing-Effective"
+    },
+    {
+      "source": "Email Marketing",
+      "target": "Email Marketing-N/A"
+    },
+    {
+      "source": "Email Marketing",
+      "target": "Email Marketing-Not Reported"
+    },
+    {
+      "source": "Email Marketing",
+      "target": "Email Marketing-Other"
+    },
+    {
+      "source": "Knowledge Management",
+      "target": "Knowledge Management-Effective"
+    },
+    {
+      "source": "Knowledge Management",
+      "target": "Knowledge Management-N/A"
+    },
+    {
+      "source": "Knowledge Management",
+      "target": "Knowledge Management-Not Reported"
+    },
+    {
+      "source": "Knowledge Management",
+      "target": "Knowledge Management-Other"
+    },
+    {
+      "source": "Customer Support",
+      "target": "Customer Support-Effective"
+    },
+    {
+      "source": "Customer Support",
+      "target": "Customer Support-N/A"
+    },
+    {
+      "source": "Customer Support",
+      "target": "Customer Support-Not Reported"
+    },
+    {
+      "source": "Customer Support",
+      "target": "Customer Support-Other"
+    }
+  ]
+}

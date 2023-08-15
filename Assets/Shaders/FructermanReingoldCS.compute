@@ -1,0 +1,86 @@
+#pragma kernel FruchtermanReingold
+
+struct Node
+{
+    float3 pos;
+    float _debug;
+    float isAnchored;
+};
+
+RWStructuredBuffer<Node> nodeBuffer;    // A structured buffer containing node data
+StructuredBuffer<float2> edgeBuffer;    // Buffer for edges (connections between nodes)
+
+uint	Iterations; // Number of iterations per dispatch
+float	k; // Constant of the Fruchterman-Reingold algorithm
+float	maxDist; // Maximum displacement distance for nodes
+
+
+[numthreads(64, 1, 1)]
+void FruchtermanReingold(uint3 id : SV_DispatchThreadID)
+{ 
+    uint numNodes, stride;
+    nodeBuffer.GetDimensions(numNodes, stride);
+    
+    uint numEdges_;
+    edgeBuffer.GetDimensions(numEdges_, stride);
+
+    float3 disp = float3(0.0, 0.0, 0.0);	
+    nodeBuffer[id.x]._debug=(float)numNodes;
+
+    float gravitationalStrength = 0.01;
+
+    for (uint n = 0; n < Iterations; n++)
+    {
+        disp = float3(0.0, 0.0, 0.0);
+        float3 center = float3(0.0, 0.0, 0.0);
+        
+        // Compute repulsive force
+        for (uint i = 0; i < numNodes; i++)
+        {
+            if (nodeBuffer[id.x].isAnchored == 1.0) { return; }
+            if (i != id.x)
+            {
+               float minDist = 0.1; // Choose an appropriate value
+     
+               float3 delta = nodeBuffer[id.x].pos - nodeBuffer[i].pos;
+               float dist = max(length(delta), minDist); 
+               float f = k * k / pow(dist, 1); // Adjust the exponent
+                disp += normalize(delta) * f;
+            }
+        }
+
+        // Compute attractive Forces of connected nodes 
+        for (int j = 0; j < numEdges_; j++)
+        {
+            float3 edgeDelta;
+            float edgeDist;
+
+            if (id.x == (uint)edgeBuffer[j].x)
+            {
+                edgeDelta = nodeBuffer[(uint)(edgeBuffer[j].y)].pos - nodeBuffer[id.x].pos;
+                edgeDist = length(edgeDelta);
+                disp += normalize(edgeDelta) * edgeDist * sqrt(edgeDist) / k; // Adjust the formula
+            }
+
+            if (id.x == (uint)edgeBuffer[j].y)
+            {
+                edgeDelta = nodeBuffer[(uint)(edgeBuffer[j].x)].pos - nodeBuffer[id.x].pos;
+                edgeDist = length(edgeDelta);
+                disp += normalize(edgeDelta) * edgeDist * sqrt(edgeDist) / k; // Adjust the formula
+            }
+        }
+
+
+        Node node = nodeBuffer[id.x];
+            //add gravitational force
+        disp += gravitationalStrength * (center - nodeBuffer[id.x].pos);
+
+        if (nodeBuffer[id.x].isAnchored == 1.0) {
+          //Reduce the force applied, making the node more "stationary"
+        disp *= 0.01;   // Reduce the displacement by 99%, effectively anchoring the node
+        }
+  
+        node.pos += normalize(disp) * min(length(disp), maxDist);
+        nodeBuffer[id.x] = node;
+    }
+}

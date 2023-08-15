@@ -1,0 +1,19 @@
+id,tag,type,connections,connectionCount
+1,us,tag,4|8|14,3
+2,peru,tag,5|7|10|11|13|18,6
+3,uk,tag,5|9|12,3
+4,Content Management Systems (CMS),node,,
+5,Business Rules Engine,node,,
+6,Business Process Workflow (BPW),node,,
+7,Knowledge Base,node,,
+8,CRM data integration,node,,
+9,Claim processing,node,,
+10,Contingency planning,node,,
+11,Access control,node,,
+12,Knowledge base,node,,
+13,KashFlow ,node,,
+14,Clear Books ,node,,
+15,Abacus ,node,,
+16,Adobe Spark,node,,
+17,Adobe Sign,node,,
+18,CSS,node,,

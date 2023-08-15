@@ -1,0 +1,64 @@
+#pragma kernel CSMain
+
+RWStructuredBuffer<float3> NodePositionsRead;  // Read from this buffer
+RWStructuredBuffer<float3> NodePositionsWrite; // Write to this buffer
+RWStructuredBuffer<float3> NodeVelocities; // Velocities remain in a single buffer
+StructuredBuffer<int2> Edges;
+
+float k;
+float damping;
+uint iterations;
+
+[numthreads(256, 1, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    // Constants for clamping
+    const float MIN_DISTANCE = 0.01;
+    const float MAX_REPULSION_FORCE = 1.0;
+    const float MAX_ATTRACTION_FORCE = 1.0;
+    const float MAX_VELOCITY = 1.0;
+    float gravitationalStrength = 0.5;
+
+    // Example repulsion force for nodes
+    float3 repulsionForce = float3(0, 0, 0);
+
+    for (uint n = 0; n< iterations; n++)
+    {
+        for (int i = 0; i < NodePositionsRead.Length; i++) {
+            if (i != id.x) {
+                float3 direction = NodePositionsRead[id.x] - NodePositionsRead[i];
+                float distance = length(direction);
+                distance = max(distance, MIN_DISTANCE);
+                repulsionForce += normalize(direction) * k * k / distance;
+            }
+        }
+
+        repulsionForce = clamp(repulsionForce, -MAX_REPULSION_FORCE, MAX_REPULSION_FORCE);
+
+        // Attraction force (based on edges)
+        float3 attractionForce = float3(0, 0, 0);
+
+        for (int j = 0; j < Edges.Length; j++) {
+            if (Edges[j].x == id.x) {
+                float3 direction = NodePositionsRead[Edges[j].y] - NodePositionsRead[id.x];
+                float distance = length(direction);
+                attractionForce += normalize(direction) * (distance * distance) / k;
+            }
+        }
+
+        attractionForce = clamp(attractionForce, -MAX_ATTRACTION_FORCE, MAX_ATTRACTION_FORCE);
+
+        // Central gravitational force
+        float3 directionToCenter = -NodePositionsRead[id.x];
+        float distanceToCenter = length(directionToCenter);
+        float3 gravitationalForce = normalize(directionToCenter) * gravitationalStrength * distanceToCenter;
+
+        // Combine forces and update velocities and positions
+        float3 totalForce = repulsionForce + attractionForce;
+
+        NodeVelocities[id.x] = totalForce * damping + gravitationalForce;
+        NodeVelocities[id.x] = clamp(NodeVelocities[id.x], -MAX_VELOCITY, MAX_VELOCITY);
+        NodePositionsWrite[id.x] = NodePositionsRead[id.x] + NodeVelocities[id.x];
+
+    }
+}
